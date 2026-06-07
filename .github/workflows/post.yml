@@ -1,0 +1,31 @@
+name: Arena IG Stories
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: '0 19 * * *'
+    - cron: '30 19 * * *'
+    - cron: '0 20 * * *'
+    - cron: '30 20 * * *'
+    - cron: '30 21 * * *'
+    - cron: '0 22 * * *'
+    - cron: '0 23 * * *'
+    - cron: '30 23 * * *'
+    - cron: '0 0 * * *'
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Publicar stories devidos
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+        run: python3 publish.py run
+      - name: Salvar log (dedup)
+        run: |
+          git config user.name "ig-scheduler"
+          git config user.email "bot@fenicelab.com.br"
+          git add posted-log.json 2>/dev/null || true
+          git commit -m "log: $(date -u +%FT%TZ)" 2>/dev/null || true
+          git push 2>/dev/null || true
