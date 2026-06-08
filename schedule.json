@@ -19,7 +19,8 @@
     {
       "dow": "mon",
       "time": "20:30",
-      "name": "seg-story2-montado-na-hora"
+      "name": "seg-story2-coliseu-hero",
+      "url": "https://arena-painel-stories.vercel.app/seg-story2-coliseu-hero.mp4"
     },
     {
       "dow": "mon",
