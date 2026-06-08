@@ -5,21 +5,86 @@
   "base_url": "https://arena-stories.vercel.app",
   "horario_url": "https://aprovacao-horario-funcionamento.vercel.app/v1.mp4",
   "schedule": [
-    {"dow": "mon", "time": "16:00", "name": "horario-funcionamento", "url": "https://aprovacao-horario-funcionamento.vercel.app/v1.mp4"},
-    {"dow": "mon", "time": "17:00", "name": "seg-story1-brasa"},
-    {"dow": "mon", "time": "19:00", "name": "seg-story2-montado-na-hora"},
-    {"dow": "mon", "time": "21:00", "name": "seg-story3-prova-social-brasa-cleiton"},
-    {"dow": "tue", "time": "16:30", "name": "ter-story1-djem"},
-    {"dow": "tue", "time": "18:30", "name": "ter-story2-efeso-gourmet-hero"},
-    {"dow": "tue", "time": "20:30", "name": "ter-story3-prova-social-efeso-cristiane"},
-    {"dow": "wed", "time": "17:30", "name": "qua-story1-x-arena"},
-    {"dow": "wed", "time": "20:00", "name": "qua-story2-camarao-crock"},
-    {"dow": "thu", "time": "16:30", "name": "qui-story1-aipim-bites"},
-    {"dow": "thu", "time": "18:30", "name": "qui-story2-porkixinha"},
-    {"dow": "thu", "time": "20:30", "name": "qui-story3-experiencia-familiar-areninha"},
-    {"dow": "fri", "time": "17:30", "name": "sex-story1-sonho-aplaudido"},
-    {"dow": "fri", "time": "20:00", "name": "sex-story2-prova-social-djem-e-arles-vanessa"},
-    {"dow": "sat", "time": "17:30", "name": "sab-story1-nimes-combo"},
-    {"dow": "sat", "time": "20:00", "name": "sab-story2-dueto-capua-e-verona"}
+    {
+      "dow": "mon",
+      "time": "17:30",
+      "name": "horario-funcionamento",
+      "url": "https://arena-painel-stories.vercel.app/horario-ambiente.mp4"
+    },
+    {
+      "dow": "mon",
+      "time": "19:00",
+      "name": "seg-story1-brasa"
+    },
+    {
+      "dow": "mon",
+      "time": "20:30",
+      "name": "seg-story2-montado-na-hora"
+    },
+    {
+      "dow": "mon",
+      "time": "21:30",
+      "name": "seg-story3-prova-social-brasa-cleiton"
+    },
+    {
+      "dow": "tue",
+      "time": "16:30",
+      "name": "ter-story1-djem"
+    },
+    {
+      "dow": "tue",
+      "time": "18:30",
+      "name": "ter-story2-efeso-gourmet-hero"
+    },
+    {
+      "dow": "tue",
+      "time": "20:30",
+      "name": "ter-story3-prova-social-efeso-cristiane"
+    },
+    {
+      "dow": "wed",
+      "time": "17:30",
+      "name": "qua-story1-x-arena"
+    },
+    {
+      "dow": "wed",
+      "time": "20:00",
+      "name": "qua-story2-camarao-crock"
+    },
+    {
+      "dow": "thu",
+      "time": "16:30",
+      "name": "qui-story1-aipim-bites"
+    },
+    {
+      "dow": "thu",
+      "time": "18:30",
+      "name": "qui-story2-porkixinha"
+    },
+    {
+      "dow": "thu",
+      "time": "20:30",
+      "name": "qui-story3-experiencia-familiar-areninha"
+    },
+    {
+      "dow": "fri",
+      "time": "17:30",
+      "name": "sex-story1-sonho-aplaudido"
+    },
+    {
+      "dow": "fri",
+      "time": "20:00",
+      "name": "sex-story2-prova-social-djem-e-arles-vanessa"
+    },
+    {
+      "dow": "sat",
+      "time": "17:30",
+      "name": "sab-story1-nimes-combo"
+    },
+    {
+      "dow": "sat",
+      "time": "20:00",
+      "name": "sab-story2-dueto-capua-e-verona"
+    }
   ]
 }
