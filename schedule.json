@@ -8,13 +8,14 @@
     {
       "dow": "mon",
       "time": "17:30",
-      "name": "horario-funcionamento",
+      "name": "horario-ambiente",
       "url": "https://arena-painel-stories.vercel.app/horario-ambiente.mp4"
     },
     {
       "dow": "mon",
       "time": "19:00",
-      "name": "seg-story1-brasa"
+      "name": "seg-story1-brasa-cleiton",
+      "url": "https://arena-painel-stories.vercel.app/seg-story1-brasa-cleiton.mp4"
     },
     {
       "dow": "mon",
@@ -23,68 +24,93 @@
       "url": "https://arena-painel-stories.vercel.app/seg-story2-coliseu-hero.mp4"
     },
     {
-      "dow": "mon",
-      "time": "21:30",
-      "name": "seg-story3-prova-social-brasa-cleiton"
+      "dow": "tue",
+      "time": "17:30",
+      "name": "horario-brasa",
+      "url": "https://arena-painel-stories.vercel.app/horario-brasa.mp4"
     },
     {
       "dow": "tue",
-      "time": "17:30",
+      "time": "19:00",
       "name": "ter-story1-djem"
     },
     {
       "dow": "tue",
-      "time": "19:30",
+      "time": "20:30",
       "name": "ter-story2-efeso-gourmet-hero"
     },
     {
       "dow": "tue",
-      "time": "21:00",
+      "time": "21:30",
       "name": "ter-story3-prova-social-efeso-cristiane"
     },
     {
       "dow": "wed",
       "time": "17:30",
+      "name": "horario-ambiente",
+      "url": "https://arena-painel-stories.vercel.app/horario-ambiente.mp4"
+    },
+    {
+      "dow": "wed",
+      "time": "19:00",
       "name": "qua-story1-x-arena"
     },
     {
       "dow": "wed",
-      "time": "20:00",
+      "time": "21:00",
       "name": "qua-story2-camarao-crock"
     },
     {
       "dow": "thu",
       "time": "17:30",
+      "name": "horario-brasa",
+      "url": "https://arena-painel-stories.vercel.app/horario-brasa.mp4"
+    },
+    {
+      "dow": "thu",
+      "time": "19:00",
       "name": "qui-story1-aipim-bites"
     },
     {
       "dow": "thu",
-      "time": "19:30",
+      "time": "20:30",
       "name": "qui-story2-porkixinha"
     },
     {
       "dow": "thu",
-      "time": "21:00",
+      "time": "21:30",
       "name": "qui-story3-experiencia-familiar-areninha"
     },
     {
       "dow": "fri",
       "time": "17:30",
+      "name": "horario-ambiente",
+      "url": "https://arena-painel-stories.vercel.app/horario-ambiente.mp4"
+    },
+    {
+      "dow": "fri",
+      "time": "19:00",
       "name": "sex-story1-sonho-aplaudido"
     },
     {
       "dow": "fri",
-      "time": "20:00",
+      "time": "21:00",
       "name": "sex-story2-prova-social-djem-e-arles-vanessa"
     },
     {
       "dow": "sat",
       "time": "17:30",
+      "name": "horario-brasa",
+      "url": "https://arena-painel-stories.vercel.app/horario-brasa.mp4"
+    },
+    {
+      "dow": "sat",
+      "time": "19:00",
       "name": "sab-story1-nimes-combo"
     },
     {
       "dow": "sat",
-      "time": "20:00",
+      "time": "21:00",
       "name": "sab-story2-dueto-capua-e-verona"
     }
   ]
