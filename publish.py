@@ -63,7 +63,7 @@ def cmd_next(cfg):
     now = datetime.now(SP_TZ); print(f"Agora (SP): {now:%a %H:%M}\nGrade:")
     for it in cfg["schedule"]: print(f"  {it['dow']} {it['time']}  {it['name']}")
 
-def cmd_run(cfg, window=20):
+def cmd_run(cfg, window=12):
     token = get_token(); ig_id = os.environ.get("IG_ID") or cfg["ig_id"]
     now = datetime.now(SP_TZ); today = DOW[now.weekday()]; key_day = now.strftime("%Y-%m-%d")
     state = _load(); done = set(state.get(key_day, [])); posted = []
