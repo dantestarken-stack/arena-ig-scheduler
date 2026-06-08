@@ -72,7 +72,8 @@ def cmd_run(cfg, window=12):
         hh, mm = map(int, it["time"].split(":"))
         sched = now.replace(hour=hh, minute=mm, second=0, microsecond=0)
         key = f"{it['time']}-{it['name']}"
-        if abs((now - sched).total_seconds())/60 <= window and key not in done:
+        elapsed = (now - sched).total_seconds()/60  # min desde o horário (negativo = futuro)
+        if -5 <= elapsed <= 90 and key not in done:  # catch-up: do horário até 90min depois
             try:
                 pid = publish_story(ig_id, token, url_for(cfg, it))
                 print(f"OK {it['name']} -> {pid}"); done.add(key); posted.append(it['name'])
