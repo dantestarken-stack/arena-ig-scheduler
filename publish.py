@@ -40,9 +40,11 @@ def _post(url, data):
     for k, v in data.items(): args += ["--data-urlencode", f"{k}={v}"]
     return _run(args)
 
-def publish_story(ig_id, token, video_url):
-    c = _post(f"{GRAPH}/{ig_id}/media",
-              {"media_type": "STORIES", "video_url": video_url, "access_token": token})
+def publish_story(ig_id, token, media_url):
+    is_image = media_url.split("?")[0].lower().endswith((".jpg", ".jpeg", ".png"))
+    params = {"media_type": "STORIES", "access_token": token}
+    params["image_url" if is_image else "video_url"] = media_url
+    c = _post(f"{GRAPH}/{ig_id}/media", params)
     cid = c["id"]
     for _ in range(40):
         st = _get(f"{GRAPH}/{cid}?fields=status_code&access_token={token}")
