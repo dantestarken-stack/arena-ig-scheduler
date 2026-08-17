@@ -1,117 +1,200 @@
 {
-  "comment": "Cronograma de stories Arena Gourmet (@arenadogburger). TZ America/Sao_Paulo. Horarios alinhados ao funcionamento (abre 17h30) + pico pre-jantar. Dom fechado = sem posts.",
+  "comment": "Cronograma Stories 2.0 Arena Gourmet (@arenadogburger). TZ America/Sao_Paulo. Janela 17:30 (abertura) ate no maximo 21:00. Dom fechado = sem posts. Reescrito 17/08/2026 para o conteudo 2.0 (hospedado em dantestarken-stack/arena-stories-2-0 via GitHub Pages).",
   "timezone": "America/Sao_Paulo",
   "ig_id": "17841438178142100",
-  "base_url": "https://arena-stories.vercel.app",
-  "horario_url": "https://aprovacao-horario-funcionamento.vercel.app/v1.mp4",
+  "base_url": "https://dantestarken-stack.github.io/arena-stories-2-0",
   "schedule": [
     {
       "dow": "mon",
       "time": "17:30",
-      "name": "horario-ambiente",
-      "url": "https://arena-painel-stories.vercel.app/horario-ambiente.mp4"
+      "name": "horario-v1-seg",
+      "url": "https://dantestarken-stack.github.io/arena-stories-2-0/horario-v1-seg.jpg"
     },
     {
       "dow": "mon",
-      "time": "19:00",
-      "name": "seg-story1-brasa-cleiton",
-      "url": "https://arena-painel-stories.vercel.app/seg-story1-brasa-cleiton.mp4"
+      "time": "18:10",
+      "name": "seg-brasa",
+      "url": "https://dantestarken-stack.github.io/arena-stories-2-0/seg-brasa.mp4"
     },
     {
       "dow": "mon",
-      "time": "20:30",
-      "name": "seg-story2-coliseu-hero",
-      "url": "https://arena-painel-stories.vercel.app/seg-story2-coliseu-hero.mp4"
+      "time": "18:50",
+      "name": "seg-djem-hero",
+      "url": "https://dantestarken-stack.github.io/arena-stories-2-0/seg-djem-hero.mp4"
+    },
+    {
+      "dow": "mon",
+      "time": "19:30",
+      "name": "seg-cashback",
+      "url": "https://dantestarken-stack.github.io/arena-stories-2-0/seg-cashback.jpg"
+    },
+    {
+      "dow": "mon",
+      "time": "20:10",
+      "name": "seg-batata",
+      "url": "https://dantestarken-stack.github.io/arena-stories-2-0/seg-batata.mp4"
+    },
+    {
+      "dow": "mon",
+      "time": "20:50",
+      "name": "seg-prova-beatriz",
+      "url": "https://dantestarken-stack.github.io/arena-stories-2-0/seg-prova-beatriz.mp4"
     },
     {
       "dow": "tue",
       "time": "17:30",
-      "name": "horario-brasa",
-      "url": "https://arena-painel-stories.vercel.app/horario-brasa.mp4"
+      "name": "horario-v2-ter-sex",
+      "url": "https://dantestarken-stack.github.io/arena-stories-2-0/horario-v2-ter-sex.jpg"
+    },
+    {
+      "dow": "tue",
+      "time": "18:15",
+      "name": "ter-coliseu-hero",
+      "url": "https://dantestarken-stack.github.io/arena-stories-2-0/ter-coliseu-hero.mp4"
     },
     {
       "dow": "tue",
       "time": "19:00",
-      "name": "ter-story1-djem"
+      "name": "ter-cashback",
+      "url": "https://dantestarken-stack.github.io/arena-stories-2-0/ter-cashback.jpg"
+    },
+    {
+      "dow": "tue",
+      "time": "19:45",
+      "name": "ter-porkixinha",
+      "url": "https://dantestarken-stack.github.io/arena-stories-2-0/ter-porkixinha.mp4"
     },
     {
       "dow": "tue",
       "time": "20:30",
-      "name": "ter-story2-efeso-gourmet-hero"
-    },
-    {
-      "dow": "tue",
-      "time": "21:30",
-      "name": "ter-story3-prova-social-efeso-cristiane"
+      "name": "ter-familia",
+      "url": "https://dantestarken-stack.github.io/arena-stories-2-0/ter-familia.mp4"
     },
     {
       "dow": "wed",
       "time": "17:30",
-      "name": "horario-ambiente",
-      "url": "https://arena-painel-stories.vercel.app/horario-ambiente.mp4"
+      "name": "horario-v3-qua-sab",
+      "url": "https://dantestarken-stack.github.io/arena-stories-2-0/horario-v3-qua-sab.jpg"
     },
     {
       "dow": "wed",
-      "time": "19:00",
-      "name": "qua-story1-x-arena"
+      "time": "18:10",
+      "name": "qua-brasa",
+      "url": "https://dantestarken-stack.github.io/arena-stories-2-0/qua-brasa.mp4"
     },
     {
       "dow": "wed",
-      "time": "21:00",
-      "name": "qua-story2-camarao-crock"
+      "time": "18:50",
+      "name": "qua-efeso-hero",
+      "url": "https://dantestarken-stack.github.io/arena-stories-2-0/qua-efeso-hero.mp4"
+    },
+    {
+      "dow": "wed",
+      "time": "19:30",
+      "name": "qua-cashback",
+      "url": "https://dantestarken-stack.github.io/arena-stories-2-0/qua-cashback.jpg"
+    },
+    {
+      "dow": "wed",
+      "time": "20:10",
+      "name": "qua-prova-fabiola",
+      "url": "https://dantestarken-stack.github.io/arena-stories-2-0/qua-prova-fabiola.mp4"
+    },
+    {
+      "dow": "wed",
+      "time": "20:50",
+      "name": "qua-camarao-crock",
+      "url": "https://dantestarken-stack.github.io/arena-stories-2-0/qua-camarao-crock.mp4"
     },
     {
       "dow": "thu",
       "time": "17:30",
-      "name": "horario-brasa",
-      "url": "https://arena-painel-stories.vercel.app/horario-brasa.mp4"
+      "name": "horario-v1-seg",
+      "url": "https://dantestarken-stack.github.io/arena-stories-2-0/horario-v1-seg.jpg"
+    },
+    {
+      "dow": "thu",
+      "time": "18:15",
+      "name": "qui-verona-hero",
+      "url": "https://dantestarken-stack.github.io/arena-stories-2-0/qui-verona-hero.mp4"
     },
     {
       "dow": "thu",
       "time": "19:00",
-      "name": "qui-story1-aipim-bites"
+      "name": "qui-cashback",
+      "url": "https://dantestarken-stack.github.io/arena-stories-2-0/qui-cashback.jpg"
+    },
+    {
+      "dow": "thu",
+      "time": "19:45",
+      "name": "qui-aipim-bites",
+      "url": "https://dantestarken-stack.github.io/arena-stories-2-0/qui-aipim-bites.mp4"
     },
     {
       "dow": "thu",
       "time": "20:30",
-      "name": "qui-story2-porkixinha"
-    },
-    {
-      "dow": "thu",
-      "time": "21:30",
-      "name": "qui-story3-experiencia-familiar-areninha"
+      "name": "qui-areninha",
+      "url": "https://dantestarken-stack.github.io/arena-stories-2-0/qui-areninha.mp4"
     },
     {
       "dow": "fri",
       "time": "17:30",
-      "name": "horario-ambiente",
-      "url": "https://arena-painel-stories.vercel.app/horario-ambiente.mp4"
+      "name": "horario-v2-ter-sex",
+      "url": "https://dantestarken-stack.github.io/arena-stories-2-0/horario-v2-ter-sex.jpg"
     },
     {
       "dow": "fri",
-      "time": "19:00",
-      "name": "sex-story1-sonho-aplaudido"
+      "time": "18:10",
+      "name": "sex-brasa",
+      "url": "https://dantestarken-stack.github.io/arena-stories-2-0/sex-brasa.mp4"
     },
     {
       "dow": "fri",
-      "time": "21:00",
-      "name": "sex-story2-prova-social-djem-e-arles-vanessa"
+      "time": "18:50",
+      "name": "sex-nimes-hero",
+      "url": "https://dantestarken-stack.github.io/arena-stories-2-0/sex-nimes-hero.mp4"
+    },
+    {
+      "dow": "fri",
+      "time": "19:30",
+      "name": "sex-cashback",
+      "url": "https://dantestarken-stack.github.io/arena-stories-2-0/sex-cashback.jpg"
+    },
+    {
+      "dow": "fri",
+      "time": "20:10",
+      "name": "sex-familia",
+      "url": "https://dantestarken-stack.github.io/arena-stories-2-0/sex-familia.mp4"
+    },
+    {
+      "dow": "fri",
+      "time": "20:50",
+      "name": "sex-prova-daniel",
+      "url": "https://dantestarken-stack.github.io/arena-stories-2-0/sex-prova-daniel.mp4"
     },
     {
       "dow": "sat",
       "time": "17:30",
-      "name": "horario-brasa",
-      "url": "https://arena-painel-stories.vercel.app/horario-brasa.mp4"
+      "name": "horario-v3-qua-sab",
+      "url": "https://dantestarken-stack.github.io/arena-stories-2-0/horario-v3-qua-sab.jpg"
     },
     {
       "dow": "sat",
-      "time": "19:00",
-      "name": "sab-story1-nimes-combo"
+      "time": "18:30",
+      "name": "sab-cashback",
+      "url": "https://dantestarken-stack.github.io/arena-stories-2-0/sab-cashback.jpg"
     },
     {
       "dow": "sat",
-      "time": "21:00",
-      "name": "sab-story2-dueto-capua-e-verona"
+      "time": "19:30",
+      "name": "sab-capua-hero",
+      "url": "https://dantestarken-stack.github.io/arena-stories-2-0/sab-capua-hero.mp4"
+    },
+    {
+      "dow": "sat",
+      "time": "20:30",
+      "name": "sab-prova-artur",
+      "url": "https://dantestarken-stack.github.io/arena-stories-2-0/sab-prova-artur.mp4"
     }
   ]
 }
