@@ -31,14 +31,14 @@
     {
       "dow": "mon",
       "time": "20:10",
-      "name": "seg-batata",
-      "url": "https://dantestarken-stack.github.io/arena-stories-2-0/seg-batata.mp4"
+      "name": "seg-prova-beatriz",
+      "url": "https://dantestarken-stack.github.io/arena-stories-2-0/seg-prova-beatriz.mp4"
     },
     {
       "dow": "mon",
       "time": "20:50",
-      "name": "seg-prova-beatriz",
-      "url": "https://dantestarken-stack.github.io/arena-stories-2-0/seg-prova-beatriz.mp4"
+      "name": "seg-batata",
+      "url": "https://dantestarken-stack.github.io/arena-stories-2-0/seg-batata.mp4"
     },
     {
       "dow": "mon",
