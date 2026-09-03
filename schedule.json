@@ -41,6 +41,12 @@
       "url": "https://dantestarken-stack.github.io/arena-stories-2-0/seg-prova-beatriz.mp4"
     },
     {
+      "dow": "mon",
+      "time": "21:00",
+      "name": "seg-prova-joao",
+      "url": "https://dantestarken-stack.github.io/arena-stories-2-0/seg-prova-joao.mp4"
+    },
+    {
       "dow": "tue",
       "time": "17:30",
       "name": "horario-v2-ter-sex",
@@ -69,6 +75,12 @@
       "time": "20:30",
       "name": "ter-familia",
       "url": "https://dantestarken-stack.github.io/arena-stories-2-0/ter-familia.mp4"
+    },
+    {
+      "dow": "tue",
+      "time": "20:50",
+      "name": "ter-prova-ana",
+      "url": "https://dantestarken-stack.github.io/arena-stories-2-0/ter-prova-ana.mp4"
     },
     {
       "dow": "wed",
@@ -135,6 +147,12 @@
       "time": "20:30",
       "name": "qui-areninha",
       "url": "https://dantestarken-stack.github.io/arena-stories-2-0/qui-areninha.mp4"
+    },
+    {
+      "dow": "thu",
+      "time": "20:50",
+      "name": "qui-prova-giselle",
+      "url": "https://dantestarken-stack.github.io/arena-stories-2-0/qui-prova-giselle.mp4"
     },
     {
       "dow": "fri",
